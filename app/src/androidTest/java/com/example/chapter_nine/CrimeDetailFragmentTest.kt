@@ -66,3 +66,4 @@ internal class CrimeDetailFragmentTest {
         assertFalse(crime.isSolved)
     }
 }
+
