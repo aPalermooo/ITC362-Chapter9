@@ -15,7 +15,9 @@ import java.util.UUID
 
 @SuppressLint("StaticFieldLeak")
 private lateinit var binding:FragmentCrimeDetailBinding
-private lateinit var crime:Crime
+
+//set to public to allow test access
+public lateinit var crime:Crime
 
 
 class CrimeDetailFragment : Fragment() {
